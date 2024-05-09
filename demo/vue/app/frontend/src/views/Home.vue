@@ -31,7 +31,7 @@
     <ul>
       <li>
         Navigate to the controller
-        <a href="http://localhost:5201/docs">swagger</a> and POST to
+        <a href="http://localhost:5000/docs">swagger</a> and POST to
         '/ver_configs' with the default payload
       </li>
       <li>
