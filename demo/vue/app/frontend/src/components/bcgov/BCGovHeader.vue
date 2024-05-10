@@ -15,7 +15,7 @@
         {{ appTitle }}
       </h1>
     </div>
-    <v-toolbar color="#003366" flat class="px-md-12 d-print-none">
+    <v-toolbar color="#000000" flat class="px-md-12 d-print-none">
       <!-- Navbar content -->
       <a href="https://www2.gov.bc.ca" data-test="btn-header-logo">
         <v-img
@@ -23,7 +23,7 @@
           class="d-none d-sm-flex d-md-none"
           contain
           height="3.5rem"
-          src="@/assets/images/bc_logo_square.svg"
+          src="@/assets/images/Quartech_logo_square.png"
           width="3.5rem"
         />
         <v-img
@@ -31,7 +31,7 @@
           class="d-none d-md-flex"
           contain
           height="3.5rem"
-          src="@/assets/images/bc_logo.svg"
+          src="@/assets/images/Quartech_logo.png"
           width="10rem"
         />
       </a>
@@ -83,11 +83,11 @@ export default {
     }
   }
   @media not print {
-    border-bottom: 2px solid #fcba19;
+    border-bottom: 2px solid #ba0020;
   }
   .text-h6 {
     font-family: inherit !important;
-    color: #ffffff;
+    color: #ba0020;
     overflow: hidden;
     margin-bottom: 0;
     @media #{map-get($display-breakpoints, 'sm-and-down')} {

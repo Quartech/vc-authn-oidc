@@ -32,8 +32,8 @@ export default {
 
 <style lang="scss" scoped>
 .gov-footer {
-  background-color: #003366 !important;
-  border-top: 2px solid #fcba19;
+  background-color: #000000 !important;
+  border-top: 2px solid #ba0020;
   flex-shrink: 0;
   min-height: 2.5rem;
   min-width: 100%;
@@ -41,7 +41,7 @@ export default {
   padding-top: 0;
 
   a {
-    color: #ffffff;
+    color: #fff;
     font-size: 1rem;
     &:focus {
       outline: none;
@@ -49,7 +49,7 @@ export default {
   }
 
   .v-btn__content > span {
-    color: #ffffff;
+    color: #fff;
     font-size: 1rem;
     font-weight: normal;
     text-decoration: none;
